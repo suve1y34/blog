@@ -28,6 +28,8 @@ dependencies {
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.springframework.security:spring-security-test'
+	
+    implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:2.1.4'
 
 	/* jsp */
 	implementation group: 'org.apache.tomcat.embed', name: 'tomcat-embed-jasper', version: '10.1.0-M2'
